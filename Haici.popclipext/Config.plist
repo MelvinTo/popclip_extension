@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>haici.png</string>
+			<key>URL</key>
+			<string>http://dict.cn/{popclip text}</string>
+			<key>Stoppable</key>
+			<true/>
+			<key>Regular Expression</key>
+			<string>(?s)^[^\./]+$</string>
+			<key>Title</key>
+			<string>海词</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>open haici dictionary to translate word</string>
+	<key>Extension Identifier</key>
+	<string>me.tuhao.haici</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>海词</string>
+		<key>fr</key>
+		<string>海词</string>
+	</dict>
+	<key>Version</key>
+	<integer>2</integer>
+	<key>Extension Image File	</key>
+	<string>haici.png</string>
+</dict>
+</plist>
