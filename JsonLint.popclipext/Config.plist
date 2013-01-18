@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>jsonlint.png</string>
+			<key>Shell Script File</key>
+			<string>jsonlint.sh</string>
+			<key>Stoppable</key>
+			<true/>
+			<key>Title</key>
+			<string>JSONLint</string>
+			<key>Regular Expression</key>
+			<string>(?s)^\s*(\{|\[).*(\}|\])\s*$</string>
+			<key>After</key>
+			<string>paste-result</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>pretty-format the json input</string>
+	<key>Extension Identifier</key>
+	<string>me.tuhao.jsonlint</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>JSONLint</string>
+		<key>fr</key>
+		<string>JSONLint</string>
+	</dict>
+	<key>Version</key>
+	<integer>2</integer>
+	<key>Extension Image File	</key>
+	<string>jsonlint.png</string>
+</dict>
+</plist>
